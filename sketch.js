@@ -115,7 +115,7 @@ blocks9.display();
 function keyPressed() {
 	if (keyCode === 32){
 		Matter.Body.setPosition(hexagon,{x:130,y:100})
-		slingshot.attach(hexagon.body);
+		slingshot.attach(hexagon);
 	}
 }
 function mouseDragged(){
